@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>RGB to HEX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <label for="rgb">RGB</label>
+            <input type="text" id="rgb" oninput="toHex()" placeholder="Enter RGB Value">
+        </div>
+        <div class="wrapper">
+            <label for="hex">HEX</label>
+            <input type="text" id="hex" oninput="toRGB()" placeholder="Enter Hex to RGB">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
